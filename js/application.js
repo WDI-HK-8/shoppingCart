@@ -23,7 +23,11 @@ $(document).on('keyup', function() {
       dist +=1;
     }
   }
-  sum -= 0.5 * dist * sum;
+  if (dist == 1) {
+    sum = 0.5  * sum;
+  }else if (dist >= 2) {
+    sum = 0
+  }
   $('#totalPrice').text(sum)
 })
 
