@@ -13,7 +13,7 @@ $(document).on('keyup', '.itemQty', function(){
 });
 
 //total
-$(document).on('mouseout', '.itemQty, .cancel', function(){
+$(document).on('mouseover', 'body', function(){
 	console.log("mouseout refresh ready for total calc");
 	total =0;
 	for (var i=0; i<$('.items .subTotal').length; i++){
@@ -52,7 +52,7 @@ $(document).on('click', '#createNewItem', function(){
 
 
 })
-
+//reset
 $(document).on('mouseout', '#createNewItem', function(){
 	console.log("mouse is out");
 	$('#newItemName').val("");
