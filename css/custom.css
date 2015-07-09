@@ -1,0 +1,80 @@
+body{
+	color: white;
+}
+#list_area > h1{
+	font-size: 95px;
+	padding-bottom: 50px;
+}
+h1{
+	color:white;
+	font-weight: bold;
+}
+
+#item_name, #item_price, #create_btn ,#calc_prices{
+	min-height: 34px;
+
+}
+
+div .col-xs-3{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.btn-danger{
+	padding: 3.5px 6px;
+}
+
+.item_row{
+	margin: 5px 0px;
+	position: relative;
+
+}
+
+.col-xs-4,.col-xs-3, .col-xs-1{
+	font-size: 25px;
+}
+
+.col-xs-1{
+	font-weight: bold;
+}
+
+
+img{
+	/*background-color: #f8f9c9;*/
+	z-index: -300;
+	position: fixed;
+	width: 100vw;
+}
+
+#list_area{
+	background-color: rgba(0,0,0,0.85) ;
+	background-image: none;
+	padding:20px;
+	margin-bottom: 0px;
+}
+
+#result_display h1{
+	background-color: rgba(87,225,103,0.75);
+	text-align: center;
+	overflow: visible;
+	color:black;
+	font-size: 102px;
+	margin:0px;
+	padding: 30px;
+}
+
+#result_display{
+	padding: 30px 0px;
+}
+input{
+	color:black;
+}
+
+li.col-xs-4.list-unstyled{
+	margin-bottom: 25px;
+}	
+
+#create_btn{
+	float:right;
+	margin-right: 35px;
+}
