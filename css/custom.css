@@ -1,0 +1,46 @@
+body{
+	background: url("http://soabootcamp.com/site/images/lots-of-groceries(4).jpg");	
+}
+
+.wrapping{
+	margin-top: 20px;
+	padding: 10px;
+}
+
+#top_navbar{
+	padding-right: 20px;
+	margin-right: 40px;
+}
+
+.navbar-brand>img{
+	height:50px;
+}
+
+.form-control{
+	margin-right: 20px;
+}
+
+
+
+li {
+	margin: 10px auto; 
+	vertical-align: center;
+	font-style: bold;
+}
+
+#createNewItem{
+	margin-left: 30px;
+}
+
+#calculatePrices{
+	padding: 20px;
+	background-color: 
+}
+
+.totalPrice{
+	margin-left: 30px;
+}
+
+.hidden_items>li{
+	display: none;
+}
