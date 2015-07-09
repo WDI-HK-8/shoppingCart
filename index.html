@@ -8,13 +8,80 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="js/application.js"></script>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
-    
+
+    <h1>THE SHOPPING CART!!!!!!!!!!!!!!!!!!!!!!</h1>
+    <h4>Simply Smart</h4>
+    <br><br>
+
+    <section id="main">
+      <ul id="productList">
+        <li>Product</li>
+        <li>Gold</li>
+        <li>Platinum</li>
+        <li>Silver</li>
+        <li>Copper</li>
+        <li>Fer</li>
+        <li>Harry</li>
+      </ul>
+      <ul id="unitPrice">
+        <li>Unit Price in USD</li>
+        <li>1157.09</li>
+        <li>1026.00</li>
+        <li>15.02</li>
+        <li>2.53</li>
+        <li>1</li>
+        <li>1</li>
+      </ul>
+      <ul id="quantity">
+        <li>Quantity</li>
+        <li><form><input type="text" class="quantityInput"></form></li>
+        <li><form><input type="text" class="quantityInput"></form></li>
+        <li><form><input type="text" class="quantityInput"></form></li>
+        <li><form><input type="text" class="quantityInput"></form></li>
+        <li><form><input type="text" class="quantityInput"></form></li>
+        <li><form><input type="text" class="quantityInput"></form></li>
+      </ul>
+      <ul id="subTotal">
+        <li>Total Price in USD</li>
+        <li>0</li>
+        <li>0</li>
+        <li>0</li>
+        <li>0</li>
+        <li>0</li>
+        <li>0</li>
+      </ul>
+      <ul id="deleteButton">
+        <li>Total Price in USD</li>
+        <li><button type="submit" class="btn btn-primary">Delete</button></li>
+        <li><button type="submit" class="btn btn-primary">Delete</button></li>
+        <li><button type="submit" class="btn btn-primary">Delete</button></li>
+        <li><button type="submit" class="btn btn-primary">Delete</button></li>
+        <li><button type="submit" class="btn btn-primary">Delete</button></li>
+        <li><button type="submit" class="btn btn-primary">Delete</button></li>
+      </ul>
+    </section>
+    <br><br>
+    <section id="addProducts">
+      <ul id="addProductList">
+        <li>Product</li>
+        <li><form><input type="text"></form></li>
+      </ul>
+      <ul id="addUnitPrice">
+        <li>Unit Price in USD</li>
+        <li><form><input type="text"></form></li>
+      </ul>
+      <ul id="addButton">
+        <li><button type="submit" class="btn btn-primary">Add item</button>
+      </ul>
+      <h1>Total price: $<span id="totalPrice"></span></h1>
+    </section>
+
   </body>
 </html>
